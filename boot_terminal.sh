@@ -73,8 +73,3 @@ echo "=================================================================="
 echo "** WELCOME ${USER} **"
 echo "=================================================================="
 play -q $FO3_TERM_BASE_DIR/ui_hacking_passgood.wav
-echo 
-read -p "Do you want to log onto the ZAX mainframe?[y/N]: " login
-if [[ $login =~ ^[Yy] ]]; then
-    bash $FO3_TERM_BASE_DIR/password_game.sh
-fi
